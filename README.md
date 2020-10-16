@@ -1,7 +1,7 @@
 # APS 2º Semestre UNIP
 Python project for School Semester Term Paper
 
-Fictional Naval System made with Python, PyQt5 for GUI, SQLite3 for database and SHA256 for cryptography. 
+Fictional Naval System for RMS Queen Mary (https://pt.wikipedia.org/wiki/RMS_Queen_Mary) made with Python, PyQt5 for GUI, SQLite3 for database and SHA256 for cryptography. 
 
 
 1. Login Interface
