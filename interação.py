@@ -1,7 +1,7 @@
 import loginPage
-import welcomePage
-import substancesDataList
-import crewDataList
+#import welcomePage
+#import substancesDataList
+#import crewDataList
 import sys
 
 from PyQt5 import uic, QtWidgets
