@@ -130,11 +130,11 @@ def delete(dnome):
         print('ERRO - Não foi possível conectar ao banco de dados "banco.db".')
 
 
-def cadastrarTripulacao(nome, qtd):
+def cadastrarTripulacao(profissao,nome,idade,rg,data_nasc,sex,alt,peso,tipoSanguineo):
     try:
         conn = sqlite3.connect('banco.db')
         cursor = conn.cursor()
-        cursor.execute("INSERT INTO tripulacao (profissao,nome,idade,rg,data_nasc,sex,alt,peso,tipoSanguineo) VALUES ('" + profissao + "', '" + nome + "', '" + idade + "', '" + rg + "', '" + data_nasc + "', '" + sex + "', '" + tipoSanguineo + "', '" + alt + "', '" + peso + "');")
+        cursor.execute("INSERT INTO tripulacao (profissao,nome,idade,rg,data_nasc,sex,alt,peso,tipoSanguineo) VALUES ('" + profissao + "', '" + nome + "', '" + idade + "', '" + rg + "', '" + data_nasc + "', '" + sex + "', '" + alt + "', '" + peso + "', '" + tipoSanguineo + "');")
         conn.commit()
         conn.close()
     except:
