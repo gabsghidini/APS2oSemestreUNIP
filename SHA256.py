@@ -1,6 +1,5 @@
 import hashlib
 import sqlite3
-#import getpass
 
 
 def inserir(loginfinal, senhafinal):  # funcao para criar a conta
